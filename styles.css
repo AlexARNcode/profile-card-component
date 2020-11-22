@@ -4,7 +4,7 @@ body {
   background-image: url("./images/bg-pattern-bottom.svg"), url("./images/bg-pattern-top.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: 260px 260px, -800px -400px;
-  background-color: white;
+  background-color: #19a2ae;
 }
 
 hr {
@@ -94,7 +94,6 @@ hr {
   /* For tablets: */
   body {
     background-position: 175% -175%, -80% -400px;
-    background-color: green;
   }
 }
 
@@ -102,7 +101,6 @@ hr {
   /* For desktop: */
   body {
     background-position: 175% -175%, -80% -400px;
-    background-color: #19a2ae;
   }
 }
 /*# sourceMappingURL=styles.css.map */
