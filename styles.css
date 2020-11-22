@@ -1,10 +1,10 @@
 body {
-  background-image: url("./images/bg-pattern-bottom.svg"), url("./images/bg-pattern-top.svg");
-  background-position: 175% -175%, -80% -400px;
-  background-repeat: no-repeat, no-repeat;
-  background-color: #19a2ae;
   font-family: 'Kumbh Sans', sans-serif;
   color: #2d3248;
+  background-image: url("./images/bg-pattern-bottom.svg"), url("./images/bg-pattern-top.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 260px 260px, -800px -400px;
+  background-color: white;
 }
 
 hr {
@@ -84,9 +84,25 @@ hr {
   justify-items: center;
 }
 
-#stats #stats-subtitle {
+#stats .stats-subtitle {
   color: #969696;
   font-size: 12px;
   font-weight: 400;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  body {
+    background-position: 175% -175%, -80% -400px;
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  body {
+    background-position: 175% -175%, -80% -400px;
+    background-color: #19a2ae;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
